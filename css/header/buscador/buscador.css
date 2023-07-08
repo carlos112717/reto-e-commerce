@@ -1,0 +1,27 @@
+.buscador{
+    display: flex;
+}
+
+
+.search__form {
+    position: relative;
+    display: inline-block;
+}
+
+.search__input {
+    padding-right: 30px; /* Espacio para el icono de búsqueda */
+    display: none; /* Ocultar inicialmente el campo de texto */
+}
+
+.search__icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.img__icon{
+    width: 1.066rem;
+    height: 1.066rem;
+}

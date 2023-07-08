@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Titulo del sitio-->
+    <title>E-commerce</title>
+  </head>
+  <body>
+
+    <!--Header del sitio web-->
+    <header>
+      <div class="logo__cabecera">
+        <img src="img/Group.png" alt="Logo de Mi Sitio Web" class="logo">
+        <h1 class="site__name">
+          <span class="alura">Alura</span><span class="game">Geek</span>
+        </h1>
+      </div>
+      <div class="button__login">
+        <a href="#" class="button__login--user">Login</a>
+      </div>
+      <div class="buscador">
+        <form class="search__form">
+          <input type="text" id="search-input" class="search__input"
+            placeholder="Buscar...">
+          <span class="search__icon" onclick="toggleSearch()">
+            <img class="img__icon" src="img/search.png" alt="Icono de búsqueda">
+          </span>
+        </form>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="carousel__item">
+        <img src="img//Hero.png" alt="Imagen 2">
+        <div class="carousel__item--content">
+          <h2 class="carousel__item--title">Título del Producto 2</h2>
+          <p class="carousel__item--description">Descripción del Producto 2</p>
+          <a href="#" class="carousel__item--button">Ver Producto</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Carrusel de productos
+    <div class="carousel">
+      <div class="carousel__inner">
+        <div class="carousel__item">
+          <img src="img/unsplash_6FDXGY9J6y4.png" alt="Imagen 1">
+          <div class="carousel__item--content">
+            <h2 class="carousel__item--title">Título del Producto 1</h2>
+            <p class="carousel__item--description">Descripción del Producto 1</p>
+            <a href="#" class="carousel__item--button">Ver Producto</a>
+          </div>
+        </div>
+        <div class="carousel__item">
+          <img src="img/unsplash_epRFE_hBNjo.png" alt="Imagen 2">
+          <div class="carousel__item--content">
+            <h2 class="carousel__item--title">Título del Producto 2</h2>
+            <p class="carousel__item--description">Descripción del Producto 2</p>
+            <a href="#" class="carousel__item--button">Ver Producto</a>
+          </div>
+        </div>
+        <div class="carousel__item">
+          <img src="img/unsplash_Zjn4dT993-g.png" alt="Imagen 3">
+          <div class="carousel__item--content">
+            <h2 class="carousel__item--title">Título del Producto 3</h2>
+            <p class="carousel__item--description">Descripción del Producto 3</p>
+            <a href="#" class="carousel__item--button">Ver Producto</a>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <h1>Gestión de Productos</h1>
+
+    <h2>Lista de Productos</h2>
+    <div id="lista-productos"></div>
+
+    <h2>Agregar Producto</h2>
+    <form onsubmit="agregarProducto(); return false;">
+      <label>ID:</label>
+      <input type="text" id="id" required>
+      <br>
+      <label>Descripción:</label>
+      <input type="text" id="descripcion" required>
+      <br>
+      <label>Precio:</label>
+      <input type="number" id="precio" step="0.01" required>
+      <br>
+      <label>Imagen:</label>
+      <input type="file" id="imagen" required accept="image/*">
+      <!-- Añade el input de tipo file para la carga de la imagen -->
+      <br>
+      <input type="submit" value="Agregar">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--<script src="js/carrusel.js"></script>-->
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+
+</html>

@@ -1,0 +1,15 @@
+.site__name {
+      font-size: 0.875rem;
+      margin-left: .2rem;
+
+    }
+
+    .site__name span.alura {
+      color: #2A7AE4;
+      font-weight: bold;
+    }
+
+    .site__name span.game {
+      color: black;
+      font-weight: bold;
+    }

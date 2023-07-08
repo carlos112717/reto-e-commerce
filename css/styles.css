@@ -1,0 +1,44 @@
+@import url(/css/style-global.css);
+@import url(/css/header/header.css);
+@import url(/css/header/logo-cabecera.css);
+@import url(/css/header/logo.css);
+@import url(/css/header/titulo-sitio.css);
+@import url(/css/header/buscador/buscador.css);
+@import url(/css/header/button-login.css);
+@import url(/css/banner/banner.css);
+
+@import url(/css/carrusel/carrusel.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* estilos para las card de los productos*/
+.product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background-color: #f5f5f5;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: cover;
+    }

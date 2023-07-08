@@ -1,0 +1,13 @@
+.button__login--user{
+    padding: .5rem 2rem;
+    font-family: var(--font-text);
+    color: #2A7AE4;
+    font-size: 0.875rem;
+    border: 1px solid #2A7AE4;
+    border-radius: 0.313rem;
+}
+
+.button__login--user:hover{
+    color: aliceblue;
+    background: #2A7AE4;
+}
