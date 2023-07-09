@@ -6,24 +6,44 @@
 @import url(/css/header/buscador/buscador.css);
 @import url(/css/header/button-login.css);
 @import url(/css/banner/banner.css);
+@import url(/css/productos/product-section.css);
+@import url(/css/productos/cabecera-productos.css);
+@import url(/css/productos/title-productos.css);
+@import url(/css/productos/hall-view.css);
+@import url(/css/productos/ver-todo.css);
+@import url(/css/productos/vertodo-arrow.css);
+@import url(/css/productos/products.css);
+@import url(/css/productos/product-item.css);
+@import url(/css/productos/product-imagen.css);
+@import url(/css/productos/product-contenido.css);
+@import url(/css/productos/product-titulo.css);
+@import url(/css/productos/product-precio.css);
+@import url(/css/productos/product-boton.css);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @import url(/css/carrusel/carrusel.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* estilos para las card de los productos*/
+estilos para las card de los productos
 .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -41,4 +61,4 @@
       width: 100%;
       max-height: 150px;
       object-fit: cover;
-    }
+    }*/

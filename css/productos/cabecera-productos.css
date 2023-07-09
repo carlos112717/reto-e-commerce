@@ -1,0 +1,7 @@
+.cabecera__productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
